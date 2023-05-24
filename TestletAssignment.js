@@ -20,8 +20,8 @@ const randomizedItems = firstTwoItems.concat(nextEightItems);
 
 
 function getRandomItems(array, count) {
-  const shuffled = array.sort(() => 0.5 - Math.random());
-  return shuffled.slice(0, count);
+  const shuffledarray = array.sort(() => 0.5 - Math.random());
+  return shuffledarray.slice(0, count);
 }
 
 
